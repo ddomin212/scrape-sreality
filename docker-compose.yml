@@ -15,7 +15,7 @@ services:
   web:
     build: .
     ports:
-      - "8000:5000"
+      - "8080:5000"
     depends_on:
       db:
         condition: service_healthy
