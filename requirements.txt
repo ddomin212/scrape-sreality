@@ -1,0 +1,4 @@
+flask
+scrapy
+psycopg2
+gunicorn
